@@ -11,17 +11,25 @@ let clienteLilit = [
     {produto: 'Tênis casual preto', valor: 120.0}, 
     {produto: 'meia calça transparente', valor: 30.0}]
 
+    const totalCompras = clienteLilit.reduce(( prevVal, element) => prevVal + element.valor, 0 )
+    console.log(totalCompras)
 
 let cliente1 = [
     {produto: 'Bolsa pequena', valor: 49.0}, 
     {produto: 'Cinto preto', valor: 22.0}, 
     {produto: 'Jaqueta Jeans', valor: 300.0}]
 
+    const totalCompras1 = cliente1.reduce(( prevVal, element) => prevVal + element.valor, 0 )
+    console.log(totalCompras1)
 
 let cliente2 = [
     {produto: 'Calça preta', valor: 100.0}, 
     {produto: 'Blusa simples', valor: 35.0}, 
     {produto: 'Calça jeans clara', valor: 130.0}]
+
+    const totalCompras2 = cliente2.reduce(( prevVal, element) => prevVal + element.valor, 0 )
+    console.log(totalCompras2)
+
 
 
 function realizarCompra(arrayDeCompra) {

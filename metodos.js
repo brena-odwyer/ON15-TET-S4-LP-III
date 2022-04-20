@@ -10,7 +10,7 @@ const encontrarPrimeiro = numeros.find((element) => element == 2); // arrow func
 console.log(encontrarPrimeiro); // retorno 2 (retorno é o que aparece no terminal)
 // a cada volta do find vai olhar o elemento, 3, 2, 4... na ordem.
 // O find procura o primeiro e para, mesmo que nessa lista tenham dois elementos 2, no retorno só aparece um 2/
-// Não precisa necessariamente atribuir a função a variáve (neste caso const encontrarPrimeiro), mas se não tiver variável,
+// Não precisa necessariamente atribuir a função a variável (neste caso const encontrarPrimeiro), mas se não tiver variável,
 // o que quer que aquilo for só poderá ser usado uma vez, se você quiser saber o que era depois tem que criar variável.
  console.log(alunas.find((elemento) => elemento == 'brenda')) //sem variável.
  
