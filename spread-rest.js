@@ -12,3 +12,5 @@ espalhar(...argumentos)
 let compras = ['calça preta', 'blusa animal print', 'salto fino vermelho 12cm']
 let novasCompras = ['argolas grandes de prata', ...compras, 'lace cacheada castanho']
 let novissimasCompras = [...compras]
+
+// Não tá funcionando não sei pq.
