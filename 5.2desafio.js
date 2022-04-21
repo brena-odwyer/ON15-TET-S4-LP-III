@@ -11,12 +11,12 @@ let data = [
     },
     {
       titulo: "moonfall - ameaça lunar",
-      genero: ['Aventura', "sci-fi"],
+      genero: ['Aventura', "sci-fi"], // array de gêneros
       ano: "2022", 
     },
     {
       titulo: "casa gucci",
-      genero: "drama",
+      genero: "drama", // é um string
       ano: "2021", 
     },
     {
@@ -65,11 +65,12 @@ let data = [
       ano: "2021", 
     }]
   
-    // busca cliente1 = "Suspense";
-    // busca cliente2 = "Corpo Elétrico"
-    // busca cliente3 = "Homem-Aranha: Sem Volta para Casa"
-    // busca cliente4 = "sci-fi" 
-    // busca cliente5 = "romance"
+    busca cliente1 = "Suspense";
+    busca cliente2 = "Corpo Elétrico"
+    busca cliente3 = "Homem-Aranha: Sem Volta para Casa"
+    busca cliente4 = "sci-fi" 
+    busca cliente5 = "romance"
+
 // O que eu tinha pensando antes da monitoria para tirar dúvida (18/abril/2022):
   // console.log(data.genero["terror"])    
   
@@ -82,31 +83,32 @@ let data = [
     // Usar o find? Porque cada objeto só vai ter um título único, então pode encontrar o primeiro e ser só aquele.
     // Usar o filter pra encontrar por gênero, porque vai ser mais de um.
 
-    let cliente1 = "Suspense"; // genero 
-    let cliente2 = "Corpo Elétrico" //titulo
-    let cliente3 = "Homem-Aranha: Sem Volta para Casa" //titulo
-    let cliente4 = "sci-fi" //genero
-    let cliente5 = "romance" //genero
+    // let cliente1 = "Suspense"; // genero 
+    // let cliente2 = "Corpo Elétrico" //titulo
+    // let cliente3 = "Homem-Aranha: Sem Volta para Casa" //titulo
+    // let cliente4 = "sci-fi" //genero
+    // let cliente5 = "romance" //genero
 
-    function buscarPorTitulo(titulo){
-      const encontrarTitulo = data.find((element) => element.titulo == titulo)
+    // function buscarPorTitulo(titulo){
+    //   const encontrarTitulo = data.find((element) => element.titulo == titulo)
 
-      return console.log (encontrarTitulo)
-    }
-    buscarPorTitulo(cliente2) // tem que ver se a cliente é genero ou titulo; pra ver em qual função colocá-la
-    buscarPorTitulo(cliente3)
-   
+    //   return console.log (encontrarTitulo)
+    // }
+    // buscarPorTitulo(cliente2) // tem que ver se a cliente é genero ou titulo; pra ver em qual função colocá-la
+    // buscarPorTitulo(cliente3)
 
-    function buscarPorGenero(genero){
-      const encontrarTitulo = data.filter((element) => element.genero.includes(genero))
+    // function buscarPorGenero(genero){
+    //   const encontrarTitulo = data.filter((element) => element.genero.includes(genero))
 
-      return console.log (encontrarTitulo)
-    }
+    //   return console.log (encontrarTitulo)
+    // }
 
-    buscarPorGenero (cliente1)
-    buscarPorGenero (cliente4)
-    buscarPorGenero (cliente5)
+    // buscarPorGenero (cliente1)
+    // buscarPorGenero (cliente4)
+    // buscarPorGenero (cliente5)
 
     //filtrar por nome do filme (outra forma que a Carolaine fez)
     // const filtrarPorTitulo = data.filter((filme) => filme.titulo == 'us');
     // console.log(filtrarPorTitulo);
+
+    // Semana 4 aula 2 - 20/abril/2022
